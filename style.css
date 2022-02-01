@@ -11,6 +11,7 @@ body{
 background-color:beige;
 background-color: #4158D0;
 background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+min-height: 100vh;
 }
 .user-avatar{
 border-radius:50%;
@@ -30,4 +31,9 @@ transform:scale(1.1);
 
 .user-container:hover .user-name{
 color:chocolate;
+}
+
+.user-form{
+margin:30px;
+
 }
