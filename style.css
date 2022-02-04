@@ -35,5 +35,23 @@ color:chocolate;
 
 .user-form{
 margin:30px;
+background-color:white;
+margin:2rem;
+padding:1rem;
+border-radius: 1rem;
+}
 
+.edit-user-form{
+display:none;
+}
+
+.action-buttons{
+opacity:0;
+transform: translateX(50px);
+transition: all 1.2s;
+}
+
+.user-container:hover .action-buttons{
+opacity:1;
+transform:translate(0);
 }
